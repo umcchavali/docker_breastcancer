@@ -6,6 +6,8 @@
 docker build -t <IMAGE_NAME> .
 # docker build -t instructor_sklearn .
 #docker build -t uma .
+############################################# # docker build -t uma_breastcancer .
+
 ## for ARM-based laptops
 # docker build -t instructor_sklearn --platform linux/amd64 .
 ```
@@ -16,8 +18,11 @@ docker build -t <IMAGE_NAME> .
 docker run -it --name <CONTAINER_NAME> -dt <IMAGE_NAME> <COMMAND> 
 # docker run -it --name sklearn_01 -dt instructor_sklearn /bin/bash
 # docker run -it --name sklearn_01 -dt uma /bin/bash
+############################################ # docker run -it --name breastcancer_01 -dt uma_breastcancer /bin/bash
+
 ## Execute a command in the container (in this case, an interactive shell)
 docker exec -it sklearn_01 /bin/bash
+########################################### # docker exec -it breastcancer_01 /bin/bash
 ```
 
 ## Push to Azure Container Registry
@@ -32,16 +37,19 @@ az login
 ## Log into the Azure Container Registry
 az acr login --name <REGISTRY_NAME>
 # az acr login --name crdsba6190deveastus001
+########################################## # az acr login --name crdsba6190deveastus001
 
 ## Tag the image with the container registry information
 docker tag <IMAGE_NAME> <REGISTRY_NAME>.azurecr.io/<IMAGE_NAME>
 # docker tag instructor_sklearn crdsba6190deveastus001.azurecr.io/instructor_sklearn:latest
 # docker tag uma crdsba6190deveastus001.azurecr.io/uma:latest
+############################################# # docker tag uma_breastcancer crdsba6190deveastus001.azurecr.io/uma_breastcancer:latest
 
 ## Push the image to the container registry
 docker push <REGISTRY_NAME>.azurecr.io/<IMAGE_NAME>
 # docker push crdsba6190deveastus001.azurecr.io/instructor_sklearn:latest
 # docker push crdsba6190deveastus001.azurecr.io/uma:latest
+############################################### # # docker push crdsba6190deveastus001.azurecr.io/uma_breastcancer:latest
 ```
 
 ## Get the Azure Kubernetes Service credential for kubectl to use
@@ -55,6 +63,7 @@ az aks get-credentials --resource-group rg-dsba6190-class-dev-eastus-001 --name 
 kubectl apply -f <POD YAML FILE>
 # kubectl apply -f example_pod.yml
 # kubectl apply -f uma_pod.yml
+#################################################### #  kubectl apply -f uma_pod_breastcancer.yml
 ```
 
 ## Remote into Pod 
@@ -63,4 +72,5 @@ kubectl apply -f <POD YAML FILE>
 kubectl exec -it <pod_name> -- /bin/bash
 # kubectl exec -it instructor-test-01 -- /bin/bash
 # kubectl exec -it uma-pod -- /bin/bash
+###################################################### kubectl exec -it uma_pod_breastcancer -- /bin/bash
 ```
