@@ -21,6 +21,7 @@
 * 🤖 Categorical features are encoded using one-hot encoding, which means each unique category value gets its own binary column. 
 * 🧮 This dataset is set up for running a linear regression model, but remember that breast cancer diagnosis is a classification problem.  
 * This dataset is an inspiration from cdc and kaggle. I then used LLM's to make a clean dataset for project purposes.
+* Example: https://github.com/NanditaA/ML-Supervised-Classification/blob/master/README.md 
 
 **🚀 How to Use This Dataset:** 
 
