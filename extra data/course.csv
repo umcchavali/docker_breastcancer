@@ -1,0 +1,100 @@
+course_title,course_difficulty,student_motivation,prior_knowledge,course_length,engagement_score,completion_status
+Introduction to Data Science,Medium,High,75,8,8.2,1
+Web Development Fundamentals,Hard,Low,50,12,5.1,0
+Python Programming for Beginners,Medium,Medium,60,10,6.8,1
+Introduction to Machine Learning,Easy,High,85,6,9.1,1
+Advanced SQL Techniques,Hard,Medium,40,12,4.5,0
+Data Visualization with Tableau,Medium,Low,55,8,5.9,0
+Digital Marketing Essentials,Easy,High,90,6,9.5,1
+Java Programming for Beginners,Hard,Low,30,12,3.2,0
+Front-End Web Development,Medium,Medium,65,10,7.1,1
+Introduction to AI,Easy,High,80,6,8.7,1
+Data Structures and Algorithms,Hard,Low,45,12,4.8,0
+Cybersecurity Fundamentals,Medium,Medium,50,10,6.2,0
+Project Management Essentials,Easy,High,70,6,8.1,1
+JavaScript Programming for Beginners,Hard,Medium,35,12,4.2,0
+Introduction to Cloud Computing,Medium,Low,40,8,5.3,0
+Mobile App Development,Easy,High,85,6,9.0,1
+Software Engineering Principles,Hard,Medium,40,12,4.6,0
+Database Administration,Medium,Low,50,8,5.7,0
+Machine Learning with Python,Easy,High,90,6,9.4,1
+Web Security Essentials,Hard,Low,35,12,3.9,0
+Advanced Python Programming,Medium,Medium,60,10,6.7,1
+Data Analysis with R,Easy,High,75,6,8.4,1
+Network Security Fundamentals,Hard,Low,45,12,4.4,0
+Data Mining and Machine Learning,Medium,Medium,55,10,6.5,1
+Artificial Intelligence for Business,Easy,High,80,6,8.9,1
+Operating Systems Concepts,Hard,Low,40,12,4.3,0
+Introduction to Blockchain,Medium,Medium,50,10,6.0,0
+Agile Project Management,Easy,High,70,6,8.3,1
+Big Data Analytics,Hard,Medium,30,12,3.8,0
+Data Engineering Fundamentals,Medium,Low,45,8,5.6,0
+Introduction to Cybersecurity,Easy,High,85,6,9.2,1
+Software Development with Java,Hard,Medium,35,12,4.1,0
+Data Science with Python,Medium,Low,55,8,6.1,0
+Web Development with React,Easy,High,90,6,9.6,1
+Mobile App Development with Android,Hard,Low,30,12,3.5,0
+Introduction to Data Visualization,Medium,Medium,65,10,7.3,1
+Data Analytics for Business,Easy,High,80,6,8.8,1
+Deep Learning with Python,Hard,Low,40,12,4.0,0
+Data Wrangling and Cleaning,Medium,Medium,50,10,6.4,1
+Machine Learning for Business,Easy,High,75,6,8.5,1
+Software Development with C++,Hard,Medium,35,12,4.7,0
+Introduction to DevOps,Medium,Low,45,8,5.8,0
+Data Science Capstone Project,Easy,High,85,6,9.3,1
+Artificial Intelligence in Healthcare,Hard,Medium,40,12,4.9,0
+Database Design and Development,Medium,Low,50,8,5.5,0
+Introduction to Big Data,Easy,High,90,6,9.7,1
+Data Engineering with Hadoop,Hard,Low,30,12,3.7,0
+Advanced Data Analysis with Python,Medium,Medium,60,10,6.9,1
+Machine Learning with R,Easy,High,75,6,8.6,1
+Data Science for Marketing,Hard,Low,40,12,4.2,0
+Data Engineering for Data Science,Medium,Medium,55,10,6.6,1
+Data Mining with Python,Easy,High,80,6,9.0,1
+Introduction to Data Warehousing,Hard,Low,35,12,3.6,0
+Data Visualization with D3.js,Medium,Medium,50,10,6.3,1
+Natural Language Processing with Python,Easy,High,70,6,8.2,1
+Data Science for Finance,Hard,Medium,45,12,5.1,0
+Introduction to Data Governance,Medium,Low,40,8,5.4,0
+Data Science for Social Good,Easy,High,85,6,9.1,1
+Advanced Data Mining Techniques,Hard,Medium,40,12,4.5,0
+Data Science for Healthcare,Medium,Low,55,8,6.0,0
+Introduction to Cloud Computing for Data Science,Easy,High,90,6,9.5,1
+Data Engineering with Spark,Hard,Low,35,12,4.0,0
+Data Visualization with Tableau,Medium,Medium,65,10,7.2,1
+Data Analytics with R,Easy,High,80,6,8.7,1
+Data Science with Python,Hard,Low,40,12,4.4,0
+Introduction to Machine Learning,Medium,Medium,50,10,6.1,0
+Data Science Capstone Project,Easy,High,75,6,8.4,1
+Deep Learning for Computer Vision,Hard,Medium,30,12,3.9,0
+Data Science for Marketing,Medium,Low,45,8,5.7,0
+Data Mining with Python,Easy,High,85,6,9.3,1
+Data Engineering with Hadoop,Hard,Medium,35,12,4.3,0
+Data Visualization with D3.js,Medium,Low,50,8,5.9,0
+Data Science for Social Good,Easy,High,90,6,9.6,1
+Data Science for Healthcare,Hard,Low,30,12,3.8,0
+Advanced Data Analysis with Python,Medium,Medium,60,10,6.8,1
+Data Science for Finance,Easy,High,75,6,8.5,1
+Data Engineering for Data Science,Hard,Low,40,12,4.1,0
+Data Mining with Python,Medium,Medium,55,10,6.5,1
+Data Science with Python,Easy,High,80,6,8.9,1
+Introduction to Data Warehousing,Hard,Low,35,12,3.7,0
+Data Visualization with Tableau,Medium,Medium,50,10,6.2,1
+Natural Language Processing with Python,Easy,High,70,6,8.3,1
+Data Science for Finance,Hard,Medium,45,12,4.8,0
+Introduction to Data Governance,Medium,Low,40,8,5.6,0
+Data Science for Social Good,Easy,High,85,6,9.2,1
+Advanced Data Mining Techniques,Hard,Medium,40,12,4.6,0
+Data Science for Healthcare,Medium,Low,55,8,6.1,0
+Introduction to Cloud Computing for Data Science,Easy,High,90,6,9.7,1
+Data Engineering with Spark,Hard,Low,30,12,3.6,0
+Data Visualization with Tableau,Medium,Medium,65,10,7.4,1
+Data Analytics with R,Easy,High,80,6,8.8,1
+Data Science with Python,Hard,Low,40,12,4.2,0
+Introduction to Machine Learning,Medium,Medium,50,10,6.3,1
+Data Science Capstone Project,Easy,High,75,6,8.5,1
+Deep Learning for Computer Vision,Hard,Medium,35,12,4.7,0
+Data Science for Marketing,Medium,Low,45,8,5.8,0
+Data Mining with Python,Easy,High,85,6,9.4,1
+Data Engineering with Hadoop,Hard,Medium,40,12,4.9,0
+Data Visualization with D3.js,Medium,Low,50,8,5.5,0

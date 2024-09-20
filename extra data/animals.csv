@@ -1,0 +1,137 @@
+common_name,scientific_name,conservation_status,conservation_status_encoded,country,region,continent,continent_encoded,habitat,habitat_encoded,food,food_encoded,population,temperature,survival_rate
+African forest elephant,,Critically Endangered,0,Africa,Forest,Africa,4,Forest,0,Plants,3,10000,25,0.8
+Amur Leopard,Panthera pardus orientalis,Critically Endangered,0,Russia,Forest,Asia,3,Forest,0,Meat,1,80,0,0.5
+Black Rhino,Diceros bicornis,Critically Endangered,0,Africa,Savanna,Africa,4,Savanna,1,Plants,3,5000,30,0.7
+Bornean Orangutan,Pongo pygmaeus,Critically Endangered,0,Indonesia,Jungle,Asia,3,Jungle,4,Fruit,2,50000,28,0.6
+Cross River Gorilla,Gorilla gorilla diehli,Critically Endangered,0,Nigeria,Jungle,Africa,4,Jungle,4,Plants,3,300,25,0.4
+Eastern Lowland Gorilla,Gorilla beringei graueri,Critically Endangered,0,Democratic Republic of Congo,Jungle,Africa,4,Jungle,4,Plants,3,5000,22,0.3
+Hawksbill Turtle,Eretmochelys imbricata,Critically Endangered,0,Worldwide,Ocean,Worldwide,7,Ocean,3,Insects,4,50000,20,0.9
+Javan Rhino,Rhinoceros sondaicus,Critically Endangered,0,Indonesia,Jungle,Asia,3,Jungle,4,Plants,3,60,28,0.2
+Orangutan,Pongo abelii Pongo pygmaeus,Critically Endangered,0,Indonesia,Jungle,Asia,3,Jungle,4,Fruit,2,100000,27
+Saola,Pseudoryx nghetinhensis,Critically Endangered,0,Vietnam,Forest,Asia,3,Forest,0,Plants,3,500,20,0.1
+Sumatran Elephant,Elephas maximus sumatranus,Critically Endangered,0,Indonesia,Jungle,Asia,3,Jungle,4,Plants,3,2000,27,0.4
+Sumatran Orangutan,Pongo abelii,Critically Endangered,0,Indonesia,Jungle,Asia,3,Jungle,4,Fruit,2,15000,26,0.3
+Sumatran Rhino,Dicerorhinus sumatrensis,Critically Endangered,0,Indonesia,Jungle,Asia,3,Jungle,4,Plants,3,80,26,0.1
+Sunda Tiger,Panthera tigris sondaica,Critically Endangered,0,Indonesia,Jungle,Asia,3,Jungle,4,Meat,1,300,25,0.2
+Vaquita,Phocoena sinus,Critically Endangered,0,Mexico,Ocean,North America,0,Ocean,3,Fish,0,10,20,0.6
+Western Lowland Gorilla,Gorilla gorilla gorilla,Critically Endangered,0,Cameroon,Jungle,Africa,4,Jungle,4,Plants,3,10000,24,0.2
+Yangtze Finless Porpoise,Neophocaena asiaeorientalis ssp. asiaeorientalis,Critically Endangered,0,China,River,Asia,3,River,6,Fish,0,500,20,0.3
+African savanna elephant,Loxodonta africana africana,Endangered,1,Africa,Savanna,Africa,4,Savanna,1,Plants,3,400000,32,0.9
+African Wild Dog,Lycaon pictus,Endangered,1,Africa,Savanna,Africa,4,Savanna,1,Meat,1,6000,28,0.5
+Asian Elephant,Elephas maximus indicus,Endangered,1,India,Forest,Asia,3,Forest,0,Plants,3,50000,28,0.8
+Black-footed Ferret,Mustela nigripes,Endangered,1,USA,Grassland,North America,0,Grassland,5,Meat,1,300,10,0.4
+Blue Whale,Balaenoptera musculus,Endangered,1,Worldwide,Ocean,Worldwide,7,Ocean,3,Krill,5,10000,10,0.7
+Bluefin Tuna,Thunnus Thynnus,Endangered,1,Worldwide,Ocean,Worldwide,7,Ocean,3,Fish,0,30000,20,0.6
+Bonobo,Pan paniscus,Endangered,1,Democratic Republic of Congo,Jungle,Africa,4,Jungle,4,Fruit,2,10000,24,0.2
+Bornean Elephant,Elephas maximus borneensis,Endangered,1,Indonesia,Jungle,Asia,3,Jungle,4,Plants,3,10000,27,0.5
+Chimpanzee,Pan troglodytes,Endangered,1,Africa,Jungle,Africa,4,Jungle,4,Fruit,2,170000,25,0.4
+Fin Whale,Balaenoptera physalus,Endangered,1,Worldwide,Ocean,Worldwide,7,Ocean,3,Krill,5,100000,15,0.9
+Galápagos Penguin,Spheniscus mendiculus,Endangered,1,Ecuador,Coast,South America,1,Coast,7,Fish,0,1000,18,0.7
+Ganges River Dolphin,Platanista gangetica gangetica,Endangered,1,India,River,Asia,3,River,6,Fish,0,3500,28,0.6
+Green Turtle,Chelonia mydas,Endangered,1,Worldwide,Ocean,Worldwide,7,Ocean,3,Seagrass,6,90000,22,0.8
+Hector's Dolphin,Cephalorhynchus hectori,Endangered,1,New Zealand,Ocean,Australia,5,Ocean,3,Fish,0,7500,10,0.5
+Humphead Wrasse,Cheilinus undulatus,Endangered,1,Indonesia,Coral Reef,Asia,3,Coral Reef,8,Fish,0,5000,28,0.4
+Indian Elephant,Elephas maximus indicus,Endangered,1,India,Forest,Asia,3,Forest,0,Plants,3,30000,26,0.7
+Indus River Dolphin,Platanista minor,Endangered,1,Pakistan,River,Asia,3,River,6,Fish,0,1100,25,0.5
+Irrawaddy Dolphin,Orcaella brevirostris,Endangered,1,Southeast Asia,River,Asia,3,River,6,Fish,0,7000,28,0.6
+Monarch Butterfly,Danaus plexippus,Endangered,1,North America,Grassland,North America,0,Grassland,5,Plants,3,100000000,15,0.8
+Mountain Gorilla,Gorilla beringei beringei,Endangered,1,Rwanda,Mountain,Africa,4,Mountain,5,Plants,3,1000,12,0.3
+North Atlantic Right Whale,Eubalaena glacialis,Endangered,1,North Atlantic,Ocean,North America,0,Ocean,3,Krill,5,350,10,0.5
+Red Panda,Ailurus fulgens,Endangered,1,Nepal,Forest,Asia,3,Forest,0,Bamboo,7,10000,10,0.6
+Sea Lions,Zalophus wollebaeki,Endangered,1,Galapagos Islands,Coast,South America,1,Coast,7,Fish,0,50000,18,0.7
+Sea Turtle,Cheloniidae and Dermochelyidae families,Endangered,1,Worldwide,Ocean,Worldwide,7,Ocean,3,Seagrass,6,100000,22,0.8
+Sei Whale,Balaenoptera borealis,Endangered,1,Worldwide,Ocean,Worldwide,7,Ocean,3,Krill,5,50000,15,0.9
+Sri Lankan Elephant,Elephas maximus maximus,Endangered,1,Sri Lanka,Forest,Asia,3,Forest,0,Plants,3,6000,28,0.7
+Tiger,Panthera tigris,Endangered,1,Asia,Forest,Asia,3,Forest,0,Meat,1,3900,25,0.4
+Whale,Balaenoptera Balaena Eschrichtius and Eubalaen,Endangered,1,Worldwide,Ocean,Worldwide,7,Ocean,3,Krill,5,100000,10,0.6
+Whale Shark,Rhincodon typus,Endangered,1,Worldwide,Ocean,Worldwide,7,Ocean,3,Plankton,8,1000,22,0.7
+Bigeye Tuna,Thunnus obesus,Vulnerable,2,Worldwide,Ocean,Worldwide,7,Ocean,3,Fish,0,200000,20,0.6
+Black Spider Monkey,Ateles paniscus,Vulnerable,2,South America,Jungle,South America,1,Jungle,4,Fruit,2,2000,25,0.4
+Cheetah,Acinonyx jubatus,Vulnerable,2,Africa,Savanna,Africa,4,Savanna,1,Meat,1,7100,28,0.5
+Dugong,Dugong dugon,Vulnerable,2,Australia,Ocean,Australia,5,Ocean,3,Seagrass,6,100000,25,0.6
+Giant Panda,Ailuropoda melanoleuca,Vulnerable,2,China,Forest,Asia,3,Forest,0,Bamboo,7,2000,10,0.7
+Giant Tortoise,,Vulnerable,2,Galapagos Islands,Island,South America,1,Island,9,Plants,3,15000,25,0.9
+Great White Shark,Carcharodon carcharias,Vulnerable,2,Worldwide,Ocean,Worldwide,7,Ocean,3,Fish,0,3500,15,0.7
+Greater One-Horned Rhino,Rhinoceros unicornis,Vulnerable,2,India,Grassland,Asia,3,Grassland,5,Plants,3,3500,28,0.8
+Hippopotamus,Hippopotamus amphibius,Vulnerable,2,Africa,River,Africa,4,River,6,Plants,3,1300000,28,0.9
+Leatherback Turtle,Dermochelys coriacea,Vulnerable,2,Worldwide,Ocean,Worldwide,7,Ocean,3,Jellyfish,9,40000,20,0.6
+Lion,Panthera Leo,Vulnerable,2,Africa,Savanna,Africa,4,Savanna,1,Meat,1,40000,30,0.7
+Loggerhead Turtle,Caretta caretta,Vulnerable,2,Worldwide,Ocean,Worldwide,7,Ocean,3,Fish,0,50000,22,0.8
+Marine Iguana,Amblyrhynchus cristatus,Vulnerable,2,Galapagos Islands,Coast,South America,1,Coast,7,Algae,10,100000,20,0.8
+Olive Ridley Turtle,Lepidochelys olivacea,Vulnerable,2,Worldwide,Ocean,Worldwide,7,Ocean,3,Crustaceans,11,800000,24,0.7
+Polar Bear,Ursus maritimus,Vulnerable,2,Arctic,Ice,Arctic,6,Ice,12,Seals,13,25000,0,0.8
+Snow Leopard,Panthera uncia,Vulnerable,2,Asia,Mountain,Asia,3,Mountain,5,Meat,1,4000,10,0.6
+Southern rockhopper penguin,Eudyptes chrysocome,Vulnerable,2,Antarctica,Coast,Antarctica,6,Coast,7,Krill,5,300000,0,0.8
+Albacore Tuna,Thunnus alalunga,Near Threatened,3,Worldwide,Ocean,Worldwide,7,Ocean,3,Fish,0,2000000,20,0.7
+Beluga,Delphinapterus leucas,Near Threatened,3,Arctic,Ocean,Arctic,6,Ocean,3,Fish,0,150000,0,0.7
+Greater Sage-Grouse,Centrocercus urophasianus,Near Threatened,3,USA,Grassland,North America,0,Grassland,5,Plants,3,200000,10,0.7
+Jaguar,Panthera onca,Near Threatened,3,South America,Jungle,South America,1,Jungle,4,Meat,1,150000,25,0.6
+Mountain Plover,Charadrius montanus,Near Threatened,3,USA,Grassland,North America,0,Grassland,5,Insects,4,5000,10,0.5
+Plains Bison,Bison bison bison,Near Threatened,3,USA,Grassland,North America,0,Grassland,5,Plants,3,50000,10,0.8
+White Rhino,Ceratotherium simum,Near Threatened,3,Africa,Savanna,Africa,4,Savanna,1,Plants,3,20000,28,0.9
+Yellowfin Tuna,Thunnus albacares,Near Threatened,3,Worldwide,Ocean,Worldwide,7,Ocean,3,Fish,0,2700000,25,0.8
+Arctic Fox,Vulpes lagopus,Least Concern,4,Arctic,Tundra,Arctic,6,Tundra,14,Small Mammals,15,2000000,0,0.8
+Arctic Wolf,Canis lupus arctos,Least Concern,4,Arctic,Tundra,Arctic,6,Tundra,14,Meat,1,10000,0,0.7
+Bowhead Whale,Balaena mysticetus,Least Concern,4,Arctic,Ocean,Arctic,6,Ocean,3,Krill,5,50000,0,0.8
+Brown Bear,Ursus arctos,Least Concern,4,Worldwide,Forest,Worldwide,7,Forest,0,Meat,1,200000,10,0.8
+Common Bottlenose Dolphin,Tursiops truncates,Least Concern,4,Worldwide,Ocean,Worldwide,7,Ocean,3,Fish,0,600000,20,0.9
+Gray Whale,Eschrichtius robustus,Least Concern,4,Worldwide,Ocean,Worldwide,7,Ocean,3,Krill,5,25000,10,0.9
+Macaw,Ara ararauna,Least Concern,4,South America,Jungle,South America,1,Jungle,4,Fruit,2,50000,25,0.8
+Narwhal,Monodon monoceros,Least Concern,4,Arctic,Ocean,Arctic,6,Ocean,3,Fish,0,80000,0,0.9
+Pronghorn,Antilocarpa americana,Least Concern,4,USA,Grassland,North America,0,Grassland,5,Plants,3,150000,10,0.8
+Skipjack Tuna,Katsuwonus pelamis,Least Concern,4,Worldwide,Ocean,Worldwide,7,Ocean,3,Fish,0,100000000,25,0.9
+Swift Fox,Vulpes velox,Least Concern,4,North America,Grassland,North America,0,Grassland,5,Meat,1,10000,10,0.6
+Tree Kangaroo,Dendrolagus sp.,Least Concern,4,New Guinea,Forest,Australia,5,Forest,0,Plants,3,10000,20,0.7
+African Wildcat,Felis silvestris lybica,Least Concern,4,Africa,Savanna,Africa,4,Savanna,1,Meat,1,1000000,28,0.8
+Aoudad,Ammotragus lervia,Least Concern,4,Africa,Desert,Africa,4,Desert,2,Plants,3,100000,30,0.7
+Asian Wild Dog,Cuon alpinus,Endangered,1,Asia,Forest,Asia,3,Forest,0,Meat,1,2500,20,0.5
+Bactrian Camel,Camelus bactrianus,Least Concern,4,Central Asia,Desert,Asia,3,Desert,2,Plants,3,100000,10,0.8
+Black-backed Jackal,Canis mesomelas,Least Concern,4,Africa,Savanna,Africa,4,Savanna,1,Meat,1,1000000,25,0.7
+Blackbuck,Antilope cervicapra,Least Concern,4,India,Grassland,Asia,3,Grassland,5,Plants,3,400000,28,0.9
+Blue wildebeest,Connochaetes taurinus,Least Concern,4,Africa,Savanna,Africa,4,Savanna,1,Plants,3,1500000,25,0.8
+Bobcat,Lynx rufus,Least Concern,4,North America,Forest,North America,0,Forest,0,Meat,1,1000000,10,0.7
+Bushbuck,Tragelaphus scriptus,Least Concern,4,Africa,Forest,Africa,4,Forest,0,Plants,3,1000000,25,0.8
+Canada Lynx,Lynx canadensis,Least Concern,4,North America,Forest,North America,0,Forest,0,Meat,1,10000,0,0.7
+Caracal,Caracal caracal,Least Concern,4,Africa,Desert,Africa,4,Desert,2,Meat,1,100000,30,0.8
+Clouded Leopard,Neofelis nebulosa,Vulnerable,2,Asia,Jungle,Asia,3,Jungle,4,Meat,1,10000,25,0.7
+Coati,Nasua nasua,Least Concern,4,South America,Jungle,South America,1,Jungle,4,Fruit,2,100000,25,0.8
+Common Genet,Genetta genetta,Least Concern,4,Europe,Forest,Europe,2,Forest,0,Meat,1,100000,10,0.8
+Dhole,Cuon alpinus,Endangered,1,Asia,Forest,Asia,3,Forest,0,Meat,1,2500,20,0.5
+Eurasian Lynx,Lynx lynx,Least Concern,4,Europe,Forest,Europe,2,Forest,0,Meat,1,10000,10,0.7
+European Badger,Meles meles,Least Concern,4,Europe,Forest,Europe,2,Forest,0,Omnivore,5,1000000,10,0.8
+European Wildcat,Felis silvestris silvestris,Least Concern,4,Europe,Forest,Europe,2,Forest,0,Meat,1,100000,10,0.8
+Fennec Fox,Vulpes zerda,Least Concern,4,Africa,Desert,Africa,4,Desert,2,Meat,1,100000,30,0.8
+Golden Jackal,Canis aureus,Least Concern,4,Asia,Desert,Asia,3,Desert,2,Meat,1,100000,25,0.8
+Gray Fox,Urocyon cinereoargenteus,Least Concern,4,North America,Forest,North America,0,Forest,0,Meat,1,1000000,10,0.8
+Gray Wolf,Canis lupus,Least Concern,4,North America,Forest,North America,0,Forest,0,Meat,1,300000,10,0.8
+Greater Kudu,Tragelaphus strepsiceros,Least Concern,4,Africa,Savanna,Africa,4,Savanna,1,Plants,3,100000,25,0.8
+Guanaco,Lama guanicoe,Least Concern,4,South America,Grassland,South America,1,Grassland,5,Plants,3,600000,10,0.8
+Indian Leopard,Panthera pardus fusca,Least Concern,4,India,Forest,Asia,3,Forest,0,Meat,1,12000,25,0.7
+Javan Mongoose,Herpestes javanicus,Least Concern,4,Southeast Asia,Jungle,Asia,3,Jungle,4,Meat,1,100000,25,0.8
+Leopard,Panthera pardus,Least Concern,4,Africa,Forest,Africa,4,Forest,0,Meat,1,70000,25,0.7
+Lion-tailed Macaque,Macaca silenus,Endangered,1,India,Forest,Asia,3,Forest,0,Fruit,2,3000,25,0.6
+Maned Wolf,Chrysocyon brachyurus,Least Concern,4,South America,Grassland,South America,1,Grassland,5,Meat,1,10000,18,0.7
+Margay,Leopardus wiedii,Least Concern,4,South America,Jungle,South America,1,Jungle,4,Meat,1,100000,25,0.7
+Mongoose,Herpestes sp.,Least Concern,4,Worldwide,Savanna,Worldwide,7,Savanna,1,Meat,1,100000,25,0.8
+Mountain Lion,Puma concolor,Least Concern,4,North America,Forest,North America,0,Forest,0,Meat,1,50000,10,0.8
+Nilgai,Boselaphus tragocamelus,Least Concern,4,India,Grassland,Asia,3,Grassland,5,Plants,3,400000,28,0.9
+Ocelot,Leopardus pardalis,Least Concern,4,South America,Jungle,South America,1,Jungle,4,Meat,1,100000,25,0.8
+Okapi,Okapia johnstoni,Least Concern,4,Africa,Forest,Africa,4,Forest,0,Plants,3,10000,25,0.7
+Painted Hunting Dog,Lycaon pictus,Endangered,1,Africa,Savanna,Africa,4,Savanna,1,Meat,1,6000,28,0.5
+Pampas Cat,Leopardus colocolo,Least Concern,4,South America,Grassland,South America,1,Grassland,5,Meat,1,100000,10,0.7
+Red Fox,Vulpes vulpes,Least Concern,4,Worldwide,Forest,Worldwide,7,Forest,0,Meat,1,1000000,10,0.8
+Reticulated Giraffe,Giraffa camelopardalis reticulata,Least Concern,4,Africa,Savanna,Africa,4,Savanna,1,Plants,3,10000,28,0.8
+Rhesus Macaque,Macaca mulatta,Least Concern,4,Asia,Forest,Asia,3,Forest,0,Fruit,2,1000000,25,0.8
+Ring-tailed Lemur,Lemur catta,Endangered,1,Madagascar,Forest,Africa,4,Forest,0,Fruit,2,2000,20,0.5
+Roan Antelope,Hippotragus equinus,Least Concern,4,Africa,Savanna,Africa,4,Savanna,1,Plants,3,10000,25,0.8
+Saiga Antelope,Saiga tatarica,Critically Endangered,0,Central Asia,Steppe,Asia,3,Steppe,15,Plants,3,50000,10,0.7
+Sambar Deer,Rusa unicolor,Least Concern,4,Asia,Forest,Asia,3,Forest,0,Plants,3,100000,25,0.8
+Serval,Leptailurus serval,Least Concern,4,Africa,Savanna,Africa,4,Savanna,1,Meat,1,100000,25,0.8
+Snowshoe Hare,Lepus americanus,Least Concern,4,North America,Forest,North America,0,Forest,0,Plants,3,1000000,0,0.6
+Spotted Hyena,Crocuta crocuta,Least Concern,4,Africa,Savanna,Africa,4,Savanna,1,Meat,1,27000,25,0.8
+Tiger,Panthera tigris,Endangered,1,Asia,Forest,Asia,3,Forest,0,Meat,1,3900,25,0.4
+Waterbuck,Kobus ellipsiprymnus,Least Concern,4,Africa,Savanna,Africa,4,Savanna,1,Plants,3,100000,25,0.8
+Wildcat,Felis silvestris,Least Concern,4,Europe,Forest,Europe,2,Forest,0,Meat,1,100000,10,0.8
+Wildebeest,Connochaetes taurinus,Least Concern,4,Africa,Savanna,Africa,4,Savanna,1,Plants,3,1500000,25,0.8
+Yellow-backed Duiker,Cephalophus silvicultor,Least Concern,4,Africa,Forest,Africa,4,Forest,0,Plants,3,100000,25,0.8
+Yellow-throated Marten,Martes flavigula,Least Concern,4,Asia,Forest,Asia,3,Forest,0,Meat,1,10000,20,0.8
