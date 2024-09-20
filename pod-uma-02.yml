@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: uma-pod-breastcancer
+  name: pod-uma-02
 spec:
   restartPolicy: Never
   containers:
-  - name: uma_breastcancer
-    image: crdsba6190deveastus001.azurecr.io/uma_breastcancer:latest
+  - name: uma-cancer
+    image: crdsba6190deveastus001.azurecr.io/uma-cancer:latest
     volumeMounts:
       - name: datalake
         mountPath: "/mnt/datalake/"
