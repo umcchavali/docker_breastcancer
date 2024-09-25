@@ -5,7 +5,9 @@ from sklearn.metrics import mean_squared_error
 import pandas as pd
 
 # Read the CSV
-df = pd.read_csv('breastcancer.csv')
+df = pd.read_csv('/mnt/datalake/delta/breastcancer.csv')
+#df = pd.read_csv('breastcancer.csv')
+
 
 # Getting dummies for categorical variables
 df = pd.get_dummies(df,columns=['menopause', 'breast', 'breast_quad', 'node_caps', 'irradiat'])

@@ -1,0 +1,85 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> docker build -t uma-cancer .
+[+] Building 0.9s (10/10) FINISHED                                                                 docker:desktop-linux
+ => [internal] load build definition from dockerfile                                                               0.0s
+ => => transferring dockerfile: 674B                                                                               0.0s
+ => [internal] load metadata for docker.io/library/python:3.12.6-slim                                              0.5s
+ => [internal] load .dockerignore                                                                                  0.0s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load build context                                                                                  0.0s
+ => => transferring context: 30B                                                                                   0.0s
+ => [1/5] FROM docker.io/library/python:3.12.6-slim@sha256:15bad989b293be1dd5eb26a87ecacadaee1559f98e29f02bf6d00c  0.0s
+ => CACHED [2/5] RUN python -m pip install scikit-learn pandas                                                     0.0s
+ => CACHED [3/5] RUN mkdir /lab                                                                                    0.0s
+ => CACHED [4/5] WORKDIR /lab                                                                                      0.0s
+ => CACHED [5/5] COPY ./train.py /lab/train.py                                                                     0.0s
+ => exporting to image                                                                                             0.1s
+ => => exporting layers                                                                                            0.0s
+ => => writing image sha256:9eeb5bced02833b8dc084e3b213183348035ad5c518bb68913d1eba782de2a2d                       0.0s
+ => => naming to docker.io/library/uma-cancer                                                                      0.1s
+
+What's next:
+    View a summary of image vulnerabilities and recommendations → docker scout quickview
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> docker run -it --name breastcancer_03 -dt uma-cancer /bin/bash
+17e38da7551a4d23b8a62eab8391e19c1cb55a0549ab0af183154f05231454e8
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> docker exec -it breastcancer_03 /bin/bash
+root@17e38da7551a:/lab# exit
+exit
+
+What's next:
+    Try Docker Debug for seamless, persistent debugging tools in any container or image → docker debug breastcancer_03
+    Learn more at https://docs.docker.com/go/debug-cli/
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> az login
+Select the account you want to log in with. For more information on login with Azure CLI, see https://go.microsoft.com/fwlink/?linkid=2271136
+
+Retrieving tenants and subscriptions for the selection...
+
+[Tenant and subscription selection]
+
+No     Subscription name       Subscription ID                       Tenant
+-----  ----------------------  ------------------------------------  -----------------------------------------
+[1] *  DSI-23950 Subscription  e9bc187a-e9a1-46be-822e-e955a2563601  University of North Carolina at Charlotte
+
+The default is marked with an *; the default tenant is 'University of North Carolina at Charlotte' and subscription is 'DSI-23950 Subscription' (e9bc187a-e9a1-46be-822e-e955a2563601).
+
+Select a subscription and tenant (Type a number or Enter for no changes):
+
+Tenant: University of North Carolina at Charlotte
+Subscription: DSI-23950 Subscription (e9bc187a-e9a1-46be-822e-e955a2563601)
+
+[Announcements]
+With the new Azure CLI login experience, you can select the subscription you want to use more easily. Learn more about it and its configuration at https://go.microsoft.com/fwlink/?linkid=2271236
+
+If you encounter any problem, please open an issue at https://aka.ms/azclibug
+
+[Warning] The login output has been updated. Please be aware that it no longer displays the full list of available subscriptions by default.
+
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> az acr login --name crdsba6190deveastus001
+
+Login Succeeded
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> docker tag uma-cancer crdsba6190deveastus001.azurecr.io/uma-cancer:latest
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> docker push crdsba6190deveastus001.azurecr.io/uma-cancer:latest
+The push refers to repository [crdsba6190deveastus001.azurecr.io/uma-cancer]
+5d76bd64ac09: Pushed
+5f70bf18a086: Layer already exists
+b617c5d28866: Layer already exists
+4c1e662df194: Layer already exists
+5c5b1cd04947: Layer already exists
+ecfc14c16318: Layer already exists
+de732417db5d: Layer already exists
+8e2ab394fabf: Layer already exists
+latest: digest: sha256:34a60953e16a62392f57c1062166db127a0b0d8454a610f5a9de42b2c1886eeb size: 1992
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> az aks get-credentials --resource-group rg-dsba6190-class-dev-eastus-001 --name kub-dsba6190-class-dev-eastus-001 --overwrite-existing
+Merged "kub-dsba6190-class-dev-eastus-001" as current context in C:\Users\CHAVALI\.kube\config
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> kubectl apply -f uma-pod-03.yml
+pod/pod-uma-02 created
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> kubectl apply -f uma-pod-03.yml
+pod/uma-pod-03 created
+PS C:\Users\CHAVALI\Downloads\Streamlit Github Stuff\docker_breastcancer\lab> kubectl exec -it uma-pod-03 -- /bin/bash
+root@uma-pod-03:/lab# python train.py
+Mean Squared Error: 3.7260735522466526e-28
+root@uma-pod-03:/lab#

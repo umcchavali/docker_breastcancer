@@ -11,6 +11,21 @@ FROM python:3.12.6-slim
 RUN python -m pip install scikit-learn pandas
 
 ## Create a directory for the lab
+#RUN mkdir /lab
+#WORKDIR /lab
+
+## Copy the training files
+#COPY ./train.py /lab/train.py
+
+
+
+## Create a directory for the lab
+#RUN mkdir 
+#WORKDIR /lab
+## Copy the training files
+#COPY ./train.py train.py
+
+## Create a directory for the lab
 RUN mkdir /lab
 WORKDIR /lab
 
