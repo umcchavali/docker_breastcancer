@@ -37,6 +37,7 @@ https://archive.ics.uci.edu/dataset/14/breast+cancer
 # Run the Code:
 
 """
+```
 from pyspark.ml import Pipeline
 from pyspark.ml.feature import OneHotEncoder, StringIndexer, VectorAssembler, StandardScaler
 from pyspark.sql import SparkSession
@@ -235,4 +236,37 @@ else:
 
 """
 
+"""
+# Print best model parameters
+print("\nBest Model Parameters:")
+# Ensure 'lowerBoundsOnCoefficients' is in the model's parameters
+if 'lowerBoundsOnCoefficients' in best_model.bestModel.params:
+    for param in best_model.bestModel.params:
+        print(f"{param}: {best_model.bestModel.getOrDefault(param)}")
+else:
+    print("'lowerBoundsOnCoefficients' parameter not found in the model.")
 
+"""
+"""
+print(
+    "\nBest Model Parameters:",
+    *[
+        f"{param.name}: {best_model.bestModel.getOrDefault(param)}"
+        for param in best_model.bestModel.params
+        if best_model.bestModel.hasDefault(param)
+    ]
+)
+"""
+
+# Delete existing directories
+#dbutils.fs.rm("/mnt/stodsba6190delta/pipeline_uma/", True) 
+#dbutils.fs.rm("/mnt/stodsba6190delta/models/", True)
+
+# Save pipeline and model
+#pipelineModel.write().overwrite().save("/mnt/stodsba6190delta/pipeline_uma/")
+best_model.write().overwrite().save("/mnt/stodsba6190delta/models/")
+
+#only run the commands once or else slight errors due to code repetition (multiple saves)
+
+# End of Assignment - Uma Chavali
+"""
